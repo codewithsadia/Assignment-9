@@ -49,14 +49,14 @@ const Client = () => {
   return (
     <div className="p-6">
       <motion.h1
-        className="grid justify-center bg-gray-300 rounded-md text-3xl font-bold font-serif mb-6 hover:bg-slate-400"
+        className="grid justify-center bg-red-200 rounded-md text-3xl font-bold font-serif mb-6 hover:bg-red-400"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
       Products List
       </motion.h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 bg-slate-200 font-serif gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 bg-red-200 font-serif gap-6">
         {data.map((product) => (
           <motion.div
             key={product.id}

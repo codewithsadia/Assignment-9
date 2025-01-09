@@ -8,7 +8,7 @@ import { HiMiniAdjustmentsHorizontal } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
-    <header className="bg-slate-400 text-black">
+    <header className="bg-red-500 to-slate-100  text-black">
       {/* Top Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 items-center px-4 py-2 gap-4">
         <div className="font-serif text-15px font-bold">
@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] items-center bg-slate-200 px-4 py-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] items-center bg-red-400 px-4 py-2 gap-4">
         {/* Logo Section */}
         <div className="flex items-center">
           <DiCodeigniter className="mr-2" />
