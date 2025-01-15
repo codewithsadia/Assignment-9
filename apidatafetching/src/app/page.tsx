@@ -12,7 +12,7 @@ const Home = () => {
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12 font-serif">
         <a
           href="/client"
-          className="bg-gray-200 text-black font-bold border border-gray-500 py-2 px-12 rounded-lg w-full sm:w-auto hover:bg-gray-300 text-center"
+          className="bg-red-200 text-black font-bold border border-red-500 py-2 px-12 rounded-lg w-full sm:w-auto hover:bg-gray-300 text-center"
           role="button"
         >
           Client Side
@@ -21,7 +21,7 @@ const Home = () => {
         <br />
         <a
           href="/server"
-          className="bg-gray-200 text-black  font-bold border border-gray-500 py-2 px-12 rounded-lg w-full sm:w-auto hover:bg-gray-300 text-center"
+          className="bg-red-200 text-black  font-bold border border-red-500 py-2 px-12 rounded-lg w-full sm:w-auto hover:bg-gray-300 text-center"
           role="button"
         >
           Server Side

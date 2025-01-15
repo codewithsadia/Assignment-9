@@ -20,7 +20,7 @@ const ServerSideProducts = async () => {
     return (
       <>
         {" "}
-        <div className="w-15px h-[20] bg-slate-500 py-2 mt-4 rounded-full">
+        <div className="w-15px h-16 mr-4 ml-4 mb-4 bg-red-200 py-2 mt-4 rounded-full">
           <h1 className="grid justify-center text-3xl font-serif">
             {" "}
             Server-Side Data Fetching{" "}
@@ -30,7 +30,7 @@ const ServerSideProducts = async () => {
           {parsedResponse.map((pro) => (
             <div
               key={pro.id}
-              className="border border-gray-300 rounded-lg overflow-hidden shadow-md bg-gray-200 transform transition-transform duration-300 hover:scale-105"
+              className="border border-red-300 rounded-lg overflow-hidden shadow-md bg-red-100 transform transition-transform duration-300 hover:scale-105"
             >
               {" "}
               <Link href={`/product/${pro.id}`}>
@@ -65,7 +65,7 @@ const ServerSideProducts = async () => {
                   <strong>Rating:</strong>
                   {pro.rating.rate} ⭐ ( {pro.rating.count} reviews){" "}
                 </p>
-                <button className="mt-2 bg-gray-500 text-black border border-black px-4 py-2 rounded hover:bg-gray-300 transition duration-300">
+                <button className="mt-2 bg-red-500 text-black border border-black px-4 py-2 rounded hover:bg-gray-300 transition duration-300">
                   Add to Cart{" "}
                 </button>
               </div>

@@ -60,7 +60,7 @@ const Client = () => {
         {data.map((product) => (
           <motion.div
             key={product.id}
-            className="flex flex-col gap-6 border border-gray-400 p-4 rounded shadow-md hover:visible"
+            className="flex flex-col gap-6 border border-red-200 p-4 rounded shadow-md hover:visible"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: product.id * 0.1 }}
@@ -74,7 +74,7 @@ const Client = () => {
               transition={{ duration: 0.3 }}
             />
             <h2 className="text-lg font-semibold">{product.title}</h2>
-            <p className="text-gray-700">{product.description}</p>
+            <p className="text-black-700">{product.description}</p>
             <p className="font-bold text-blue-600">${product.price}</p>
           </motion.div>
         ))}
